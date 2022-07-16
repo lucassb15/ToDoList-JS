@@ -66,4 +66,5 @@ const clickItem = (evento) => {
 
 document.getElementById('novoItem').addEventListener('keypress', adicionarTarefa);
 document.getElementById('todoList').addEventListener('click', clickItem);
+
 atualizarTela();
